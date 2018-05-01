@@ -23,6 +23,7 @@ RUN set -x                                                                && \
 
 ADD bin/bash-askpass /usr/local/bin/bash-askpass
 ADD bin/quiet-askpass /usr/local/bin/quiet-askpass
+ADD bin/env-askpass /usr/local/bin/env-askpass
 
 VOLUME /root/.lpass
 
